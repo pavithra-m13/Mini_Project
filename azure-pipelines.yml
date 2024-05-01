@@ -6,8 +6,7 @@
 trigger:
 - main
 
-pool:
-  vmImage: test-my-computer
+pool: test-my-computer
 
 steps:
 - task: Maven@4
