@@ -6,7 +6,7 @@
 trigger:
 - main
 
-pool: test_project
+pool: test-my-computer
 
 steps:
 - task: Maven@4
@@ -20,3 +20,5 @@ steps:
     mavenAuthenticateFeed: false
     effectivePomSkip: false
     sonarQubeRunAnalysis: false
+    options: 'Dtest=NewTest'
+
